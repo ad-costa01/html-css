@@ -1,5 +1,3 @@
-HTML e CSS
-Curso de html e css do curso em video
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
