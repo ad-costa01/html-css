@@ -1,2 +1,1 @@
-Não grita
 
