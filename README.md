@@ -1,22 +1,23 @@
 HTML e CSS
 Curso de html e css do curso em video
-Nome		
-ad-costa01
-ad-costa01
-Criar README.md
-583eca0
- · 
-1 minuto atrás
-exercícios
-Commit inicial
-45 minutos atrás
-.gitattributes
-Commit inicial
-45 minutos atrás
-LICENÇA
-Commit inicial
-45 minutos atrás
-LEIA-ME.md
-Criar README.md
-1 minuto atrás
-ex001
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente e diminua o tamnho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+
+        <img src="Imagens/foto-g.png" alt="Imagem flexível">
+</picture>
+
+</body>
+</html>
